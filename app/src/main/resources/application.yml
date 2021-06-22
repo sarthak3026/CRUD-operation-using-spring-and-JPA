@@ -1,0 +1,19 @@
+# See http://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+spring:
+  thymeleaf.cache: false
+  main.show-banner: false
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/crmdb
+    username: root
+    password: samarth7
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+    
+server:
+  servlet:
+    context-path: /app
+ 
