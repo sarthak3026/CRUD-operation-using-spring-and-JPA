@@ -5,8 +5,8 @@ spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/crmdb
-    username: root
-    password: samarth7
+    username: //enter username
+    password: //enter your password here
   jpa:
     show-sql: true
     hibernate:
